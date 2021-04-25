@@ -10,6 +10,11 @@ public class HelloController {
         return "Hello from Spring Test!!";
     }
 
+    @GetMapping("/second")
+    public String second(){
+        return "Second place is the first loser";
+    }
+
     @GetMapping("/first")
     public String first(){
         return "You were first. Congrats!!";
