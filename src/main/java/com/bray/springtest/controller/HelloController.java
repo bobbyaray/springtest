@@ -9,4 +9,9 @@ public class HelloController {
     public String hello(){
         return "Hello from Spring Test!!";
     }
+
+    @GetMapping("/first")
+    public String first(){
+        return "You were first. Congrats!!";
+    }
 }
